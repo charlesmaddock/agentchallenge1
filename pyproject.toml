@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "agentchallenge1"
+version = "0.1.0"
+description = ""
+authors = ["charlesmaddock <charles@digitalungdom.se>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+llama-index = "^0.11.6"
+openai = "^1.44.0"
+dendrite-sdk = "^0.1.4"
+llama-index-core = "^0.11.6"
+llama-index-llms-openai = "^0.2.2"
+loguru = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
